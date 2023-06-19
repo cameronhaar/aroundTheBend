@@ -113,6 +113,7 @@ def train():
             plot_mean_scores.append(mean_score)
             plot(plot_scores, plot_mean_scores)
 
+# used to play the game yourself
 def IWannaPlay():
     game = AroundTheBendGame()
     while True:
